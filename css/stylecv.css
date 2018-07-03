@@ -1,0 +1,70 @@
+body{
+	background-color: white;
+	background-image: url("../img/original.jpg");
+	border: 3px solid #000000;
+	margin: 0%;
+	float: center;
+	padding: 2%;
+
+}
+main{
+	border: 3px solid lightgreen;
+	margin-top: 2%;
+}
+
+.izquierda{
+	background-color: lightblue;
+}
+
+.imagen{
+	border-radius: 100px;
+	display: block;
+    height: auto;
+    max-width: 100%;
+	margin:20px auto;
+	width: 175px;
+	height: 175px;
+}
+
+.dat{
+	margin-top: 3%;	
+	background-color: lightgreen;
+}
+
+.a{
+	padding-right: 10px;
+}
+
+.derecha{
+	background-color: lightgrey;
+
+}
+
+.nombre{
+	padding-top: 5%;
+}
+
+.datospersonales{
+	margin-top: 3%;
+	background-color: lightgreen;
+	text-align: center;
+
+}
+
+a{
+	text-decoration: none;
+	color:DarkSlateGray ;
+}
+
+@media only screen and (max-width: 899px) {
+
+    .nombre {
+        display: none;
+    }
+   
+}
+
+@media only screen and (min-width: 900px) {
+    .nombre2 {
+        display: none;
+    }
